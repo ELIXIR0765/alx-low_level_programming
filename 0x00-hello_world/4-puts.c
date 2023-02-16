@@ -2,7 +2,7 @@
 /**
  * main - A program that prints a line with puts function without the printf function
 n
- * Return: 0 (it was successful)
+ * Return: 0 (Sucess)
  */
 int main(void)
 {
