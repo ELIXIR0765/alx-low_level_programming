@@ -4,7 +4,7 @@
  * Return 0 (Success)
  */
 int main(void)
-
+{
 printf("Size of a char: %lu byte(s)\n", (unsigned long)sizeof(a));
 printf("size of int: %lu byte(s)\n", (unsigned long)sizeof(b));
 printf("size of long int: %lu byt(s)\n", (unsigned long)sizeof(c));
