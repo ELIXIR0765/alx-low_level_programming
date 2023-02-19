@@ -32,5 +32,5 @@ int man(void)
 
 	putchar('\n');
 
-	return (0);
+	return (1);
 }
