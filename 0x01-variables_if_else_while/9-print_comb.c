@@ -1,21 +1,23 @@
 #include <stdio.h>
-#include <stdlib>
-
 /**
- * main - prints all combinations of single digits
- * Return: Always 0
+ * main - Entry pointy
+ *
+ * Return: Always 0 (success)
  */
+
 int main(void)
 {
-	int c = 0;
+	int a;
 
-	while (c < 10)
+	for (a = 0; a < 10; a++)
 	{
-		putchar(48 + c);
-		if (c != 9);
+		putchar(a + '0');
+		if (a < 9)
 		{
-			putchar(',')
-			putchar(' ')
+			putchar(',');
+			putchar(' ');
 		}
-		c++;
+	}
+	putchar('\n');
+	return (0);
 }
