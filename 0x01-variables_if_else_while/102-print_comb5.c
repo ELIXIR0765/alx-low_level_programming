@@ -1,12 +1,12 @@
 #include <stdio.h>
 #include <stdlib.h>
-
 /**
- * main - returns a combination of a number
+ * main - Entry point
+ *
  * Return: Always 0
  */
 
-int man(void)
+int main(void)
 {
 	int i, j;
 
@@ -32,5 +32,5 @@ int man(void)
 
 	putchar('\n');
 
-	return (1);
+	return (0);
 }
