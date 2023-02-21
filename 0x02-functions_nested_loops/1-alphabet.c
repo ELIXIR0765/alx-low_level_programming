@@ -2,7 +2,6 @@
 
 /**
  * main - Prints the alphabet in lower case
- * Return: Always 0
  *
  */
 
