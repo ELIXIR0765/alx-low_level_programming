@@ -7,7 +7,6 @@
  *
  * Return: k
  */
-
 int print_last_digit(int i)
 {
 	int k;
