@@ -1,15 +1,16 @@
 #include "main.h"
 
-/** jack_bauer - prints 24hrs time
+/**
+ * jack_bauer - prints 24hrs time
  *
- * Return: Always 0
+ * Return: always 0
+ *
  */
-
 void jack_bauer(void)
 {
 	int i;
 	int j;
-	
+
 	for (i = 0 ; i < 24 ; i++)
 	{
 		for (j = 0 ; j < 60 ; j++)
